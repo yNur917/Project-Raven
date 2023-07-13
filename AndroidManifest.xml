@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="32"
+    android:compileSdkVersionCodename="12"
+    package="com.example.myapplication"
+    platformBuildVersionCode="32"
+    platformBuildVersionName="12">
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="32" />
+
+    <application
+        android:theme="@ref/0x7f0f01d2"
+        android:label="@ref/0x7f0e001b"
+        android:icon="@ref/0x7f0c0000"
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:roundIcon="@ref/0x7f0c0001"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+
+        <activity
+            android:name="com.example.myapplication.signup_main"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.stovem2_page"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.stovem1_page"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.sinkm2_page"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.sinkm1_page"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.tapm2_page"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.tapm2"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.order_received1"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.payment_page"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.tapm1_page"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.sell_page"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.plumber_page"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.stove_page1"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.sink_page1"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.tap_page1"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.plumber_sell"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.stove_menu"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.sink_menu"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.tap_main"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplication.MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
